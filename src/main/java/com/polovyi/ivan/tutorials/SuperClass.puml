@@ -1,0 +1,18 @@
+@startuml
+
+
+class SuperClass {
+    +String value1
+    +String value2
+    +String value3
+    +String value4
+
+    +SuperClass(String value1, String value2)
+    +SuperClass(String value1, String value2, String value3, String value4)
+
+    +String initValue4()
+    +void printValues()
+
+}
+
+@enduml
