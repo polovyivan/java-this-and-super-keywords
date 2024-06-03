@@ -1,6 +1,7 @@
 package com.polovyi.ivan.tutorials;
 
 public class SuperClass {
+
     public String value1;
     public String value2;
     public String value3;
@@ -25,6 +26,7 @@ public class SuperClass {
     }
 
     public String initValue4() {
+        this.printValuesStatic();
         return "SuperClass: Initialized from instance method";
     }
 
@@ -33,6 +35,10 @@ public class SuperClass {
                 value2 + " | " +
                 value3 + " | " +
                 value4);
+    }
+
+    public static void printValuesStatic() {
+        System.out.println("SuperClass: static method");
     }
 
 }

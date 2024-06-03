@@ -22,6 +22,7 @@ public class SubClass extends SuperClass {
     }
 
     public String initValue4() {
+        super.printValuesStatic();
         return "SubClass: Initialized from instance method";
     }
 

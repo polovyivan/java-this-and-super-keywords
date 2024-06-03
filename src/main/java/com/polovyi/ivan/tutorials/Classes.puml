@@ -22,5 +22,6 @@ class SubClass extends SuperClass {
 
     +String initValue4()
     +void printValues()
+    +void printValuesStatic()
 }
 @enduml
